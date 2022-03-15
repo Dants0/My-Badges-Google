@@ -22,7 +22,8 @@
 
 ul{
     display: flex;
-    color: #fff;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
 }
 
 img.one-badge{
@@ -52,7 +53,9 @@ img.three-badge{
 img.four-badge{
     width: 300px;
     height: 300px;
-    margin: 10px 0px 50px 0px;
+    margin: 10px 0px 50px 5px;
+    border: 2px solid rgb(27, 223, 9);
+    border-radius: 30px;
 }
 
 img.five-badge{
