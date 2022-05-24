@@ -4,6 +4,14 @@
     font-family: "Poppins", sans-serif;
 }
 
+body{
+    background: url(https://t3.ftcdn.net/jpg/01/22/63/48/240_F_122634828_LyDnIJqk0LvTILpAvBTg17CX6ZWPXVbj.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -13,16 +21,19 @@
 .h-title{
     text-align: center;
     text-decoration: underline;
+    color: white;
 }
 
 .p-desc{
     text-align: center;
     font-size: large;
+    color: white;
 }
 
 ul{
     display: flex;
     overflow: hidden;
+    list-style-type:none;
     color: rgb(255, 255, 255);
 }
 
